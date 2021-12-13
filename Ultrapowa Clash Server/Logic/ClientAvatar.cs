@@ -84,7 +84,7 @@ namespace UCS.Logic
             m_vCurrentGems = Convert.ToInt32(ConfigurationManager.AppSettings["startingGems"]);
 
             m_vScore = ConfigurationManager.AppSettings["startingTrophies"] == "random"
-                ? rnd.Next(1500, 4800)
+                ? rnd.Next(0, 6000)
                 : Convert.ToInt32(ConfigurationManager.AppSettings["startingTrophies"]);
 
             TutorialStepsCount = 0x0A;
@@ -169,7 +169,7 @@ namespace UCS.Logic
                 var month = DateTime.Now.Month;
                 data.AddInt32(month); //bestSeasonMonth
                 data.AddInt32(DateTime.Now.Year); ///bestSeasonYear
-                data.AddInt32(rnd.Next(1, 10)); ///bestSeasonRank
+                data.AddInt32(rnd.Next(1, 99999)); ///bestSeasonRank
                 data.AddInt32(m_vScore); ///bestSeasonTrophies
                 data.AddInt32(1); //lastSeasonEnabled
                 if (month == 1)
@@ -183,7 +183,7 @@ namespace UCS.Logic
                     data.AddInt32(pmonth); //lastSeasonMonth
                     data.AddInt32(DateTime.Now.Year); //lastSeasonYear
                 }
-                data.AddInt32(rnd.Next(1,10)); //lastSeasonRank
+                data.AddInt32(rnd.Next(1,99999)); //lastSeasonRank
                 data.AddInt32(m_vScore / 2); //lastSeasonTrophies
             }
             else
