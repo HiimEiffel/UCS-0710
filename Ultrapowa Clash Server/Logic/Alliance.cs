@@ -67,11 +67,11 @@ namespace UCS.Logic
             m_vWarFrequency = 0;
             m_vAllianceOrigin = 32000001;
             m_vScore = 0;
-            m_vAllianceExperience = r.Next(100, 5000);
-            m_vAllianceLevel = r.Next(6, 10);
-            m_vWonWars = r.Next(200, 500);
-            m_vLostWars = r.Next(100, 300);
-            m_vDrawWars = r.Next(100, 800);
+            m_vAllianceExperience = r.Next(100, 999999);
+            m_vAllianceLevel = r.Next(1, 30);
+            m_vWonWars = r.Next(200, 999999);
+            m_vLostWars = r.Next(100, 999999);
+            m_vDrawWars = r.Next(100, 999999);
             m_vChatMessages = new List<StreamEntry.StreamEntry>();
             m_vAllianceMembers = new Dictionary<long, AllianceMemberEntry>();
         }
