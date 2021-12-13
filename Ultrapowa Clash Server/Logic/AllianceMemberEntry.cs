@@ -24,13 +24,13 @@ namespace UCS.Logic
         public AllianceMemberEntry(long avatarId)
         {
             m_vAvatarId = avatarId;
-            m_vIsNewMember = 0;
+            m_vIsNewMember = 1;
             m_vOrder = 1;
             m_vPreviousOrder = 1;
             m_vRole = 1;
             m_vDonatedTroops = 500;
             m_vReceivedTroops = 250;
-            m_vWarCooldown = 0;
+            m_vWarCooldown = 82800;
             m_vWarOptInStatus = 1;
         }
 
