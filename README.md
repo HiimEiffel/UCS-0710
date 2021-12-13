@@ -1,50 +1,32 @@
-#Ultrapowa Clash Server
+### Ultrapowa Clash Server
 
-An awesome, irresistible Clash Of Clans server that has a huge awesome community background just to rock and roll the base. It is production ready and you can create your own private server like others. Come and join our community
+An awesome, irresistible Clash Of Clans server.,
+that has a huge awesome community background just to rock and roll the base. 
+It is production ready and you can create your own private server like others. 
+Come and join our community
 
-#Websites
+### Websites
 
-* [Ultrapowa - Home Page](http://ultrapowa.com/)
-* [Ultrapowa - Forum](http://ultrapowa.com/forum)
+* [Ultrapowa - Forum](https://ultrapowa.com/)
 
-#Download
+### Download
 
-Go to the release section and download the compiled UCS there in accordance to the latest release. It's fast and simple if you want to plug and play without any customization.
-
-**OR**
-
-You can download the source code, edit it and compile it. And please, if you have made any perfomance change or bought any new features to life, then please make a pull request with your awesome work.
+Go to the release section and download the compiled UCS there in accordance to the latest release. 
+It's fast and simple if you want to plug and play without any customization.
 
 To connect it with the game, you need the custom APK which you can download it from the give link below :
 
-* http://www.mediafire.com/download/b05ggfh57pbg068/Clash+of+Clans+8.332.16+Patched.apk
-
-#Our developers
-
-* Ultrapowa									
-* ADeltaX								
-* thecheater887
-* Berkan
-* Julian
-
-#Our helpers
-
-* PatrikCoC
-* Clash of Lights
-* CrayCray
-* KnightKing
+* http://www.mediafire.com/file/b05ggfh57pbg068/Clash+of+Clans+8.332.16+Patched.apk
 
 #Ideas
 
-We are making an awesome Dashboard for UCS which is web based where you can manage your players, get the status of the server and do a lot more. You can manage the server from any place even if you don't have a computer. Pretty awesome, isn't it?
+We are making an awesome Dashboard for UCS which is web based where you can manage your players.,
+get the status of the server and do a lot more. 
+You can manage the server from any place even if you don't have a computer. 
+Pretty awesome, isn't it?
 
-![Dashboard Mockup](https://smartclashcoc.com/images/imac2013_right.png)
+![Dashboard Mockup](https://www.nicepng.com/png/full/824-8240789_portfolio-connecting-logo-1920-imac2013-right-imac-home.png)
 
-#Developers needed
-
-We need to keep UCS up and we are the only Private server development community and we need you to be a part of it. UCS is fully coded on C#.NET and we want you to join us if you know the language.
-
-Contact us at [Ultrapowa Forum](http://ultrapowa.com/forum/)
 
 #License
 
