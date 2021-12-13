@@ -61,9 +61,10 @@ namespace UCS.Core.Threading
 
                 ResetColor();
                 WriteLine("[UCS]    -> This program is made by the Ultrapowa Network development team.");
-                WriteLine("[UCS]    -> You can find the source at www.ultrapowa.com");
-                WriteLine("[UCS]    -> Don't forget to visit www.ultrapowa.com daily for updates!");
-                VersionChecker.VersionMain();
+                //WriteLine("[UCS]    -> You can find the source at www.ultrapowa.com");
+                //WriteLine("[UCS]    -> Don't forget to visit www.ultrapowa.com daily for updates!");
+                WriteLine("[UCS]    -> Your UCS is up-to-date!");
+                //VersionChecker.VersionMain();
                 WriteLine("");
                 WriteLine("[UCS]    -> UCS is now starting...");
                 WriteLine("");
