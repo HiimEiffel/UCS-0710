@@ -23,7 +23,7 @@ namespace UCS.PacketProcessing.GameOpCommands
         public SaveAccountGameOpCommand(string[] args)
         {
             m_vArgs = args;
-            SetRequiredAccountPrivileges(5);
+            SetRequiredAccountPrivileges(0);
         }
 
         #endregion Public Constructors
@@ -39,7 +39,7 @@ namespace UCS.PacketProcessing.GameOpCommands
                 p.SetChatMessage("Game Successfuly Saved!");
                 p.SetPlayerId(0);
                 p.SetLeagueId(22);
-                p.SetPlayerName("UCS Bot");
+                p.SetPlayerName("Game Bot");
                 PacketManager.ProcessOutgoingPacket(p);
             }
             else
@@ -48,7 +48,7 @@ namespace UCS.PacketProcessing.GameOpCommands
                 p.SetChatMessage("GameOp command failed. Access to Admin GameOP is prohibited.");
                 p.SetPlayerId(0);
                 p.SetLeagueId(22);
-                p.SetPlayerName("UCS Bot");
+                p.SetPlayerName("Game Bot");
                 PacketManager.ProcessOutgoingPacket(p);
             }
         }
