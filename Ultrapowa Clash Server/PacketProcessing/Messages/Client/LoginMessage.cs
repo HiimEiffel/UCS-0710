@@ -126,7 +126,7 @@ namespace UCS.PacketProcessing.Messages.Client
                 }
 
                 var cv = ClientVersion.Split('.');
-                if (cv[0] != "8" || cv[1] != "332")
+                if (cv[0] != "8" || cv[1] != "67")
                 {
                     var p = new LoginFailedMessage(Client);
                     p.SetErrorCode(8);
@@ -178,7 +178,7 @@ namespace UCS.PacketProcessing.Messages.Client
                 mail.SetSenderId(0);
                 mail.SetSenderAvatarId(0);
                 mail.SetSenderName("Server Manager");
-                mail.SetIsNew(0);
+                mail.SetIsNew(1);
                 mail.SetAllianceId(0);
                 mail.SetSenderLeagueId(22);
                 mail.SetAllianceBadgeData(1728059989);
