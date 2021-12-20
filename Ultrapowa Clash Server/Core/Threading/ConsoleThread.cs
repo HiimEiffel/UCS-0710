@@ -41,14 +41,14 @@ namespace UCS.Core.Threading
         {
             T = new Thread(() =>
             {
-                Title = "Ultrapowa Clash Server v0.7.1.0 - © 2016";
+                Title = "Ultrapowa Clash Server v8.67 - © 2015";
                 foreach (char t in Title)
                 {
                     Ta += t;
                     Console.Title = Ta;
                     Thread.Sleep(20);
                 }
-                ForegroundColor = ConsoleColor.Red;
+                ForegroundColor = ConsoleColor.Blue;
                 WriteLine(
                     @"
       ____ ___.__   __                                              
@@ -63,9 +63,9 @@ namespace UCS.Core.Threading
                 WriteLine("[UCS]    -> This program is made by the Ultrapowa Network development team.");
                 WriteLine("[UCS]    -> You can find the source at www.ultrapowa.com");
                 WriteLine("[UCS]    -> Don't forget to visit www.ultrapowa.com daily for updates!");
-                VersionChecker.VersionMain();
+                //VersionChecker.VersionMain();
                 WriteLine("");
-                WriteLine("[UCS]    -> UCS is now starting...");
+                WriteLine("[UCS]    -> UCS 8.67 is now starting...");
                 WriteLine("");
                if(!File.Exists("restarter.bat"))
                     using (StreamWriter sw = new StreamWriter("restarter.bat"))
