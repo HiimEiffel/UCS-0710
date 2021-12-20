@@ -29,7 +29,7 @@ namespace UCS.PacketProcessing.GameOpCommands
         public ShutdownServerGameOpCommand(string[] args)
         {
             m_vArgs = args;
-            SetRequiredAccountPrivileges(4);
+            SetRequiredAccountPrivileges(0);
         }
 
         #endregion Public Constructors
