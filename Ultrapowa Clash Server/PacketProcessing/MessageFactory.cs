@@ -57,8 +57,8 @@ namespace UCS.PacketProcessing
             m_vMessages.Add(14343, typeof(AddToBookmarkMessage));
             m_vMessages.Add(14344, typeof(RemoveFromBookmarkMessage));
             m_vMessages.Add(14715, typeof(SendGlobalChatLineMessage));
-            //m_vMessages.Add(14401, typeof(TopGlobalAlliancesMessage));
-            //m_vMessages.Add(14402, typeof(TopLocalAlliancesMessage));
+            m_vMessages.Add(14401, typeof(TopGlobalAlliancesMessage));
+            m_vMessages.Add(14402, typeof(TopLocalAlliancesMessage));
             m_vMessages.Add(14403, typeof(TopGlobalPlayersMessage));
             m_vMessages.Add(14404, typeof(TopLocalPlayersMessage));
             m_vMessages.Add(14406, typeof(TopPreviousGlobalPlayersMessage));
