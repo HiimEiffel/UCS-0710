@@ -1,8 +1,13 @@
 #Ultrapowa Clash Server
 
-An awesome, irresistible Clash Of Clans server that has a huge awesome community background just to rock and roll the base. It is production ready and you can create your own private server like others. Come and join our community
+An awesome, irresistible Clash Of Clans server that has a huge awesome community background just to rock and roll the base. 
+<br>
+It is production ready and you can create your own private server like others. 
+<br>
+Come and join our community
 
 #Client v8.67.8
+<br>
 • New Winter theme!
 <br>
 • Bug-fixes for the new Shield system and game crashes
