@@ -4,15 +4,24 @@ An awesome, irresistible Clash Of Clans server that has a huge awesome community
 
 #Client v8.67.8
 • New Winter theme!
+<br>
 • Bug-fixes for the new Shield system and game crashes
+<br>
 • New info screen when tapping the Shield icon shows exact Personal Break timer status
+<br>
 • Fixed and cleaned up various UI issues
 8.67
+<br>
 One of the Biggest Clash Updates - Ever!
+<br>
 • Town Hall 11, new Hero Grand Warden & new defense Eagle Artillery!
+<br>
 • New troop levels, defense levels, and Clan Spell donation
+<br>
 • Revamped Shield system that lets you attack whenever you want
+<br>
 • Bigger League Bonuses, Trophy offers, and so much more
+<br>
 Dec.20.2015
 
 #License
