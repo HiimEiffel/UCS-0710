@@ -86,10 +86,10 @@ namespace UCS.PacketProcessing
             m_vCommands.Add(571, typeof(FilterChatCommand));
             m_vCommands.Add(572, typeof(ToggleHeroAttackModeCommand));
             m_vCommands.Add(600, typeof(PlaceAttackerCommand));
-            m_vCommands.Add(603, typeof(EndOfBattleCommand));
+            //m_vCommands.Add(603, typeof(EndOfBattleCommand));
             m_vCommands.Add(604, typeof(CastSpellCommand));
             m_vCommands.Add(605, typeof(PlaceHeroCommand));
-            m_vCommands.Add(700, typeof(SearchOpponentCommand));
+            //m_vCommands.Add(700, typeof(SearchOpponentCommand));
             m_vCommands.Add(3072, typeof(UnknownCommand));
             m_vCommands.Add(500000004, typeof(ToggleHeroCommand));
             m_vCommands.Add(4294967295, typeof(RemoveMultiBuildingsCommand));
